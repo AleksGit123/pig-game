@@ -1,0 +1,47 @@
+@media(max-width:530px) {
+    .new_game_button {
+        top: 8%;
+        width: 50px;
+    }
+
+    .new_game {
+        display: none;
+    }
+
+    .reset {
+        display: block;
+    }
+
+    .main_section {
+        padding: 35px;
+        row-gap: 30px;
+    }
+
+    .section_heading {
+        font-size: 24px;
+    }
+
+    .score {
+        font-size: 50px;
+    }
+
+    .current_div {
+        width: 120px;
+        height: 100px;
+        row-gap: 5px;
+    }
+
+    .div_header {
+        font-size: 15px;
+    }
+
+    .current_score {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:400px) {
+    .section_heading {
+        font-size: 17px;
+    }
+}

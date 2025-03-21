@@ -1,0 +1,26 @@
+@media (max-width:730px) {
+
+    .new_game_button {
+        width: 110px;
+    }
+
+    .new_game {
+        font-size: 15px;
+    }
+
+    .main_section {
+        padding: 50px;
+    }
+
+    .section_heading {
+        font-size: 32px;
+    }
+
+    .score {
+        font-size: 72px;
+    }
+
+    .current_div {
+        width: 220px;
+    }
+}

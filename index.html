@@ -6,16 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
 
+    <!-- font link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <!-- icon link -->
+
     <script src="https://kit.fontawesome.com/7d5224a84d.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
 
     <link rel="shortcut icon" href="gamepad-solid.svg" type="image/x-icon">
     <title>Pig Game</title>
 </head>
 
 <body>
+    <main class="main_tag">
+        <a href="index.html">
+            <button class="new_game_button">
+                <span class="new_game">New Game</span>
 
+                <i class="fa-solid fa-repeat reset" style="color: #084d77;"></i>
+            </button>
+        </a>
+
+
+        <!-- section1 -->
+
+        <section class="main_section active left_s">
+            <h2 class="section_heading p1">
+                Player 1
+            </h2>
+            <p class="score s1">0</p>
+
+            <div class="current_div">
+                <h3 class="div_header">CURRENT</h3>
+                <p class="current_score">0</p>
+            </div>
+
+        </section>
+
+
+        <!-- section2 -->
+
+        <section class="main_section inactive right_s">
+            <h2 class="section_heading p2">
+                Player 2
+            </h2>
+            <p class="score s2">0</p>
+
+            <div class="current_div">
+                <h3 class="div_header">CURRENT</h3>
+                <p class="current_score">0</p>
+            </div>
+        </section>
+    </main>
 
 </body>
 

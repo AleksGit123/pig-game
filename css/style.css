@@ -1,0 +1,124 @@
+@import url(variables.css);
+
+body {
+    background-image: linear-gradient(to right bottom, #ff2365, #ffbac9);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110vh;
+}
+
+.main_tag {
+    width: min(95%, 1000px);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px;
+}
+
+.new_game_button {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 38px;
+    border-radius: 500px;
+
+    cursor: pointer;
+    z-index: 1;
+    transition: .4s;
+}
+
+.hidden {
+    display: none;
+}
+
+.reset {
+    display: none;
+    font-size: 18px;
+}
+
+.new_game {
+    font-family: var(--family);
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 400;
+    color: var(--color);
+}
+
+.new_game_button:hover {
+    transform: translate(-50%, -80%);
+    box-shadow: 0 6px 15px#FFFFFF;
+}
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    padding: 80px;
+    width: 50%;
+}
+
+.left_s {
+    border-radius: 10px 0 0 10px;
+}
+
+.right_s {
+    border-radius: 0 10px 10px 0;
+}
+
+.active {
+    background-color: #ffbccf;
+}
+
+.inactive {
+    background-color: #ffa6bf;
+    opacity: .7;
+}
+
+.section_heading {
+    font-family: var(--family);
+    font-size: 40px;
+    color: #333333;
+}
+
+.p1 {
+    font-weight: 700;
+}
+
+.score {
+    font-family: var(--family);
+    font-size: 80px;
+    color: #a4133c;
+
+}
+
+.current_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 272px;
+    height: 176px;
+    border-radius: 10px;
+    row-gap: 40px;
+    background-color: #a4133c;
+    padding: 20px;
+}
+
+.div_header {
+    font-family: var(--family);
+    font-size: 17px;
+    line-height: 24px;
+    color: #DDDDDD;
+}
+
+.current_score {
+    font-family: var(--family);
+    font-size: 40px;
+    color: #FFFFFF;
+}
