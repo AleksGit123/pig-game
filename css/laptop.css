@@ -1,0 +1,11 @@
+@media(max-width:1010px) {
+
+    .current_div {
+        width: 210px;
+    }
+
+    .mid_button {
+        font-size: 15px;
+        padding-inline: 15px;
+    }
+}

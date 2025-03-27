@@ -5,7 +5,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 110vh;
+    min-height: 100vh;
 }
 
 .main_tag {
@@ -62,6 +62,7 @@ body {
     row-gap: 40px;
     padding: 80px;
     width: 50%;
+    background-color: #ffa6bf;
 }
 
 .left_s {
@@ -74,11 +75,6 @@ body {
 
 .active {
     background-color: #ffbccf;
-}
-
-.inactive {
-    background-color: #ffa6bf;
-    opacity: .7;
 }
 
 .section_heading {
@@ -108,6 +104,54 @@ body {
     row-gap: 40px;
     background-color: #a4133c;
     padding: 20px;
+    box-shadow: 0 3px 5px 2px #500118;
+}
+
+.image_div {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.dice {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.current {
+    display: block;
+}
+
+.roll_hold {
+    display: flex;
+    align-items: center;
+    row-gap: 30px;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    /* border: 2px solid red; */
+}
+
+.mid_button {
+    background-color: #FFFFFF;
+    font-family: var(--family);
+    font-size: 18px;
+    line-height: normal;
+    border-radius: 20px;
+    padding: 7px 25px;
+    opacity: .7;
+    cursor: pointer;
+
 }
 
 .div_header {
@@ -121,4 +165,5 @@ body {
     font-family: var(--family);
     font-size: 40px;
     color: #FFFFFF;
+
 }

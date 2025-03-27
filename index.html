@@ -18,11 +18,11 @@
     <script src="https://kit.fontawesome.com/7d5224a84d.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/laptop.css">
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/mobile.css">
 
-    <link rel="shortcut icon" href="gamepad-solid.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/gamepad-solid.svg" type="image/x-icon">
     <title>Pig Game</title>
 </head>
 
@@ -47,15 +47,23 @@
 
             <div class="current_div">
                 <h3 class="div_header">CURRENT</h3>
-                <p class="current_score">0</p>
+                <p class="current_score c1">0</p>
             </div>
 
         </section>
+        <div class="image_div">
+            <img src="images/dice-1.png" alt="dice" class="dice">
+        </div>
 
+
+        <div class="roll_hold">
+            <button class="mid_button roll">ROLL DICE</button>
+            <button class="mid_button hold">HOLD</button>
+        </div>
 
         <!-- section2 -->
 
-        <section class="main_section inactive right_s">
+        <section class="main_section right_s">
             <h2 class="section_heading p2">
                 Player 2
             </h2>
@@ -63,11 +71,12 @@
 
             <div class="current_div">
                 <h3 class="div_header">CURRENT</h3>
-                <p class="current_score">0</p>
+                <p class="current_score c2">0</p>
             </div>
         </section>
     </main>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
