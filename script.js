@@ -42,9 +42,9 @@ roll.addEventListener("click", () => {
     }
 
        // if dice equals 1
-    // if(randomNum === 1){
-    //     gameOver();
-    // }
+    if(randomNum === 1){
+        gameOver();
+    }
  
 
    
